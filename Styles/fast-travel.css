@@ -423,3 +423,44 @@ footer hr{
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* RESPONSIVE DESIGN */
+
+*{
+    .hide{
+        display: none;
+    }
+}
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+    .nav nav ul{
+        display: none;
+    }
+
+    .header_title{
+        margin-left: 5px;
+        background-image: url(Images/icon/menu-burger.png);
+    }
+
+    .header_title h2{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .header_title img{
+        width: 28.724px;
+        height: 33.516px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .banner_section .banner_img{
+        width: 335px;
+        height: 483px;
+    }
+}
